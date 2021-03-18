@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="voxels" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/voxels" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add library="dl" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/voxels" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="/home/paxom/glad/include" />
+		</Compiler>
+		<Linker>
+			<Add library="GL" />
+			<Add library="glfw" />
+			<Add library="dl" />
+		</Linker>
+		<Unit filename="block.cpp" />
+		<Unit filename="block.h" />
+		<Unit filename="glad/glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="octree.cpp" />
+		<Unit filename="octree.h" />
+		<Unit filename="program.cpp" />
+		<Unit filename="program.h" />
+		<Unit filename="transform.cpp" />
+		<Unit filename="transform.h" />
+		<Unit filename="vao.cpp" />
+		<Unit filename="vao.h" />
+		<Unit filename="vec3.cpp" />
+		<Unit filename="vec3.h" />
+		<Unit filename="windowlib.cpp" />
+		<Unit filename="windowlib.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

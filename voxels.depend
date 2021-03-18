@@ -1,0 +1,171 @@
+# depslib dependency file v1.0
+1616046461 source:/home/paxom/codeblocks-projects/voxels/main.cpp
+	<iostream>
+	<cstring>
+	<glad/glad.h>
+	"windowlib.h"
+	"vao.h"
+	"obj-loader/objloader.h"
+	"program.h"
+	"octree.h"
+	<math.h>
+	<unordered_set>
+	"stb_image.h"
+
+1579473811 /home/paxom/glfw-3.3.2/include/GLFW/glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<vulkan/vulkan.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1612514533 /home/paxom/codeblocks-projects/voxels/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1612602380 /home/paxom/glad/include/glad/glad.h
+	<KHR/khrplatform.h>
+
+1612602380 /home/paxom/glad/include/KHR/khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1612602380 source:/home/paxom/glad/src/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1612701933 source:/home/paxom/codeblocks-projects/voxels/src/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1612702225 source:/home/paxom/codeblocks-projects/voxels/src/windowlib.cpp
+	"windowlib.h"
+	<GLFW/glfw3.h>
+	<stdexcept>
+
+1612702307 /home/paxom/codeblocks-projects/voxels/include/windowlib.h
+	<GLFW/glfw3.h>
+
+1612702307 /home/paxom/codeblocks-projects/voxels/windowlib.h
+	<GLFW/glfw3.h>
+
+1612701933 source:/home/paxom/codeblocks-projects/voxels/glad/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1612636879 source:/home/paxom/codeblocks-projects/voxels/vector3.cpp
+	"vector3.h"
+
+1612638151 /home/paxom/codeblocks-projects/voxels/vector3.h
+
+1615916895 source:/home/paxom/codeblocks-projects/voxels/windowlib.cpp
+	"windowlib.h"
+	<GLFW/glfw3.h>
+	<stdexcept>
+
+1612717429 source:/home/paxom/codeblocks-projects/voxels/transform.cpp
+	"transform.h"
+
+1615924511 /home/paxom/codeblocks-projects/voxels/transform.h
+	"vec3.h"
+
+1615920776 source:/home/paxom/codeblocks-projects/voxels/vao.cpp
+	"vao.h"
+	<iostream>
+	<cassert>
+
+1615917458 /home/paxom/codeblocks-projects/voxels/vao.h
+	<glad/glad.h>
+	<vector>
+
+1612907459 source:/home/paxom/codeblocks-projects/voxels/program.cpp
+	"program.h"
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<cstdio>
+
+1612896558 /home/paxom/codeblocks-projects/voxels/program.h
+	<glad/glad.h>
+
+1615924480 /home/paxom/codeblocks-projects/voxels/vec3.h
+
+1613144912 source:/home/paxom/codeblocks-projects/voxels/obj-loader/objloader.cpp
+	"objloader.h"
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<cstring>
+	<assert.h>
+	<map>
+
+1613145419 /home/paxom/codeblocks-projects/voxels/obj-loader/objloader.h
+	<vector>
+	"vec3.h"
+
+1615924521 source:/home/paxom/codeblocks-projects/voxels/vec3.cpp
+	"vec3.h"
+	<cassert>
+
+1615924480 /home/paxom/codeblocks-projects/voxels//vec3.h
+
+1616047193 /home/paxom/codeblocks-projects/voxels/octree.h
+	"vec3.h"
+
+1616046631 source:/home/paxom/codeblocks-projects/voxels/octree.cpp
+	"octree.h"
+	<glad/glad.h>
+	<cassert>
+	<cmath>
+	<iostream>
+
+1614980448 source:/home/paxom/codeblocks-projects/voxels/block.cpp
+	"block.h"
+
+1614980599 /home/paxom/codeblocks-projects/voxels/block.h
+
